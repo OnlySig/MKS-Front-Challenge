@@ -1,0 +1,38 @@
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0F52BA;
+    padding: 29px 65px;
+    
+    .title {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        color: #FFF;
+        max-width: 200px;
+        p {
+            position: relative;
+            bottom: 2px;
+            font-weight: 100;
+        }
+    }
+    .icon__container {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 20px;
+        border-radius: 8px;
+        background-color: #FFF;
+        font-weight: bold;
+        span {
+            position: relative;
+            right: 5px;
+        }
+        svg {
+            position: relative;
+            right: 5px;
+        }
+    }
+}
